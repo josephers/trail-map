@@ -1,4 +1,6 @@
 require 'webmock/rspec'
+require 'awesome_print'
+require 'json-schema'
 
 script_directory = File.dirname(__FILE__)
 helper_files = script_directory + '/../lib/helpers/*.rb'

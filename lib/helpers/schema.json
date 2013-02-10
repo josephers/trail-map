@@ -1,0 +1,173 @@
+{
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-03/schema",
+  "properties": {
+    "name": {
+      "type": "string",
+      "require": true
+    }
+  }
+}
+
+  // {
+  //   "type":"object",
+  //   "$schema": "http://json-schema.org/draft-03/schema",
+  //   "id": "#",
+  //   "required":false,
+  //   "properties":{
+  //     "description": {
+  //       "type":"string",
+  //       "id": "description",
+  //       "required":false
+  //     },
+  //     "name": {
+  //       "type":"string",
+  //       "id": "name",
+  //       "required":false
+  //     },
+  //     "steps": {
+  //       "type":"array",
+  //       "id": "steps",
+  //       "required":false,
+  //       "items":[
+  //       {
+  //         "type":"object",
+  //         "id": "0",
+  //         "required":false,
+  //         "properties":{
+  //           "name": {
+  //             "type":"string",
+  //             "id": "name",
+  //             "required":false
+  //           },
+  //           "resources": {
+  //             "type":"array",
+  //             "id": "resources",
+  //             "required":false,
+  //             "items":
+  //             {
+  //               "type":"object",
+  //               "id": "0",
+  //               "required":false,
+  //               "properties":{
+  //                 "title": {
+  //                   "type":"string",
+  //                   "id": "title",
+  //                   "required":false
+  //                 },
+  //                 "uri": {
+  //                   "type":"string",
+  //                   "id": "uri",
+  //                   "required":false
+  //                 }
+  //               }
+  //             }
+
+
+  //           },
+  //           "validations": {
+  //             "type":"array",
+  //             "id": "validations",
+  //             "required":false,
+  //             "items":
+  //             {
+  //               "type":"string",
+  //               "id": "0",
+  //               "required":false
+  //             }
+
+
+  //           }
+  //         }
+  //       },
+  //       {
+  //         "type":"object",
+  //         "id": "1",
+  //         "required":false,
+  //         "properties":{
+  //           "name": {
+  //             "type":"string",
+  //             "id": "name",
+  //             "required":false
+  //           },
+  //           "resources": {
+  //             "type":"array",
+  //             "id": "resources",
+  //             "required":false,
+  //             "items":
+  //             {
+  //               "type":"object",
+  //               "id": "0",
+  //               "required":false,
+  //               "properties":{
+  //                 "title": {
+  //                   "type":"string",
+  //                   "id": "title",
+  //                   "required":false
+  //                 },
+  //                 "uri": {
+  //                   "type":"string",
+  //                   "id": "uri",
+  //                   "required":false
+  //                 }
+  //               }
+  //             }
+
+
+  //           },
+  //           "validations": {
+  //             "type":"array",
+  //             "id": "validations",
+  //             "required":false,
+  //             "items":
+  //             {
+  //               "type":"string",
+  //               "id": "0",
+  //               "required":false
+  //             }
+
+
+  //           }
+  //         }
+  //       },
+  //       {
+  //         "type":"object",
+  //         "id": "2",
+  //         "required":false,
+  //         "properties":{
+  //           "name": {
+  //             "type":"string",
+  //             "id": "name",
+  //             "required":false
+  //           },
+  //           "resources": {
+  //             "type":"array",
+  //             "id": "resources",
+  //             "required":false,
+  //             "items":
+  //             {
+  //               "type":"object",
+  //               "id": "0",
+  //               "required":false,
+  //               "properties":{
+  //                 "title": {
+  //                   "type":"string",
+  //                   "id": "title",
+  //                   "required":false
+  //                 },
+  //                 "uri": {
+  //                   "type":"string",
+  //                   "id": "uri",
+  //                   "required":false
+  //                 }
+  //               }
+  //             }
+
+
+  //           }
+  //         }
+  //       }
+  //       ]
+  //     }
+  //   }
+  // }

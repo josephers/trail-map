@@ -1,4 +1,6 @@
 class JSONValidator
+  SCHEMA = 'lib/helpers/schema.json'
+
   def initialize(file_name)
     @file_name = file_name
     @contents = File.open(@file_name).read
@@ -22,10 +24,13 @@ class JSONValidator
 
   def valid_json?
     begin
-      JSON.parse(@contents)
+      puts
+      ap JSON::Validator.fully_validate(SCHEMA, @contents)
+      puts
+
       true
-    rescue Exception => e
-      false
+    # rescue Exception => e
+    #   false
     end
   end
 
